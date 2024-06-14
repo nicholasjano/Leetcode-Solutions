@@ -11,7 +11,6 @@ Use the counting approach to count how many times each number appears in the lis
 - Loop through count, and if there are any duplicates, move them to the next index.
 - Keep looping until eventually every number is on a unique state
 
-
 ## Time Complexity
 $O(n+k)$
 
