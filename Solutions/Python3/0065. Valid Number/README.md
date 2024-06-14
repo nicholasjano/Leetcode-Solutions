@@ -6,7 +6,7 @@ Use a regex.
 
 ## Approach
 - Search if the string matches the regex.
-- Regex explination: "^[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?$"
+- Regex explanation: "^[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?$"
 - Anchors: "^" and "$":
 
 These symbols are placed at the start and end of the regex respectively to ensure the entire string matches the pattern within.
