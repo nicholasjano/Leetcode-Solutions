@@ -9,7 +9,7 @@ In a hashmap, for each airport, I can hold the visitable airports as their value
 - Initialize the route list and stack, starting with JFK.
 - For the last index of the stack, add all their destinations to the back of the stack in lexical order
 - Whichever airport is now at the back of the stack gets popped into routes
-- Continue this until all tickets have been accounted for, we can reverse routes, since the stack did not pop out JFK to routes first, it did it last.
+- Continue this until all tickets have been accounted for. I then reversed routes for the final itinerary.
 
 ## Time Complexity
 $O(nlogn)$
