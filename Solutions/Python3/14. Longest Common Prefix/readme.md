@@ -15,6 +15,7 @@ Loop through each index of the strings and see if they match. Exit and return th
 $O(nL)$
 
 $n$ is the amount of strings
+
 $L$ is the length of the shortest string
 
 ## Space Complexity
