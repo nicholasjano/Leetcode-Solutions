@@ -17,7 +17,7 @@ This is an optional condition to check if the string has a "+" or "-" at the beg
 
 - Integer/Decimal: "(\d+(\.\d*)?|\.\d+)"
 
-First half: "\d+(\.\d*)?"
+**First half:** "\d+(\.\d*)?"
 
 "\d+" matches one or more digits
 
@@ -25,7 +25,7 @@ First half: "\d+(\.\d*)?"
 
 "|" OR operator seperating the first half from the second half
 
-Second half: "\.\d+"
+**Second half:** "\.\d+"
 
 "\.\d+" matches a number where it begins with a decimal, such as ".97"
 
