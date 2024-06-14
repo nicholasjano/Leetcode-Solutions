@@ -20,6 +20,6 @@ $O(n)$
 $n$ is the total number of nodes in the binary tree.
 
 ## Space Complexity
-$O(h∗2</sup>h</sup>)$
+$O(h∗2^h)$
 
 $h$ is the maximum height of the binary tree.
