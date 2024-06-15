@@ -13,7 +13,7 @@ Account for base cases, flip values for a negative power, multiply the value by 
 - Preform integer divison on n to half floor it, and loop until n is 0
 
 ## Time Complexity
-$O(logn)$
+$O(\log n)$
 
 ## Space Complexity
 $O(1)$

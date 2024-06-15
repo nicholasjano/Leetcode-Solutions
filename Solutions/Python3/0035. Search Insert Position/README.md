@@ -9,7 +9,7 @@ Use binary search
 - Instead of returning -1 if no value is found, return low, which would be the index where it would be if it were inserted in order.
 
 ## Time Complexity
-$O(logn)$
+$O(\log n)$
 
 ## Space Complexity
 $O(1)$

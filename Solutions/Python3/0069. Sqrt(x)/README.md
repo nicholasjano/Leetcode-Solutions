@@ -10,7 +10,7 @@ Use Binary search from the value after the base case to x, using the square of m
 - Either return mid if we found the exact value, or return high for the rounded down value
 
 ## Time Complexity
-$O(logn)$
+$O(\log n)$
 
 ## Space Complexity
 $O(1)$

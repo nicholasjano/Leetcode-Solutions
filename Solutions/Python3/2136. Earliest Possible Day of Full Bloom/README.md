@@ -13,7 +13,7 @@ Sort the plants by growth time as that is a bottleneck, plant each flower one at
 - Once all plants have been accounted for, return minimum total days
 
 ## Time Complexity
-$O(nlogn)$
+$O(n \log n)$
 
 ## Space Complexity
 $O(n)$

@@ -14,7 +14,7 @@ profit value. Afterward, we can create a maxheap to store the profits of all ava
 - To do this, we push all the profits of the avaliable projects to the heap (negative values to emulate a maxheap on python). Afterward, we pop the highest profit project from the heap, and add it to w.
 
 ## Time Complexity
-$O(nlogn + klogn)$
+$O(n \log n + k \log n)$
 
 ## Space Complexity
 $O(n)$

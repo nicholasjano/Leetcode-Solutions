@@ -12,7 +12,7 @@ In a hashmap, for each airport, I can hold the visitable airports as their value
 - Continue this until all tickets have been accounted for. I then reversed routes for the final itinerary.
 
 ## Time Complexity
-$O(nlogn)$
+$O(n \log n)$
 
 ## Space Complexity
 $O(n)$

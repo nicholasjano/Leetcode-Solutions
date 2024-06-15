@@ -12,7 +12,7 @@ Loop through each index of the strings and see if they match. Exit and return th
 - If a string reaches is max length, or a string does not have a matching character, return the prefix
 
 ## Time Complexity
-$O(nL)$
+$O(n \cdot L)$
 
 $n$ is the amount of strings
 
