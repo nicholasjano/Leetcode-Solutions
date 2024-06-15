@@ -6,7 +6,7 @@ Loop through the list, keeping track of the consecutive 1's. When the chain is b
 
 ## Approach
 - Initialize current and maximum variables to hold the current chain and the longest chain
-- Iterate through nums, if the value is 1, increment the current chain, otherwise, set maximum to the new chain only if it the new longest chain, and reset curret
+- Iterate through nums, if the value is 1, increment the current chain, otherwise, set maximum to the new chain only if it the new longest chain, and reset curret for the next chain
 
 ## Time Complexity
 $O(n)$
