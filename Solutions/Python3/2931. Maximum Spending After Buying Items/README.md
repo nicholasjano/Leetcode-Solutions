@@ -10,7 +10,7 @@ Since the day multiplies the price of an item, to get the maximum spending, we n
 - Within each iteration of the loop, I pop the cheapest item from the heap. With that, I add the item value * day to the total spending, and add the next item in that shop to the heap if necessary. The day increments at the end of the loop to ensure proper calculations.
 
 ## Time Complexity
-$O(m*nlogm*n)$
+$O((mn)log(mn))$
 
 ## Space Complexity
 $O(m)$
