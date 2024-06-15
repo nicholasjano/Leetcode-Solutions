@@ -7,8 +7,8 @@ Create a new string, and iterate through the original string. I can append each 
 ## Approach
 - Initialize a new string to store the defanged IP
 - Iterate through every character in address:
-- If the character matches '.' I'll append '[.]'
-- Otherwise, I'll append the original character
+- If the character matches '.' I'll append '[.]' to the new string
+- Otherwise, I'll append the original character to the new string
 
 ## Time Complexity
 $O(n)$
