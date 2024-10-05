@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 select 
     machine_id, 
     round(
