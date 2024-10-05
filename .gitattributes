@@ -1,1 +1,3 @@
-*.sql linguist-language=MySQL
+*.sql linguist-language=SQL
+*.mysql linguist-language=MySQL
+*.pgsql linguist-language=PostgreSQL
