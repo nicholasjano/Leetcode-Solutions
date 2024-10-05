@@ -14,9 +14,9 @@ Loop through each index of the strings and see if they match. Exit and return th
 ## Time Complexity
 $O(n \cdot L)$
 
-$n$ is the amount of strings
+$n$ is the amount of strings.
 
-$L$ is the length of the shortest string
+$L$ is the length of the shortest string.
 
 ## Space Complexity
 $O(L)$
