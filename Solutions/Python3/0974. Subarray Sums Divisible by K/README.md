@@ -2,7 +2,7 @@
 Question: https://leetcode.com/problems/subarray-sums-divisible-by-k/
 
 ## Intuition
-Seeing the word "divisible" in the problem made me think that I need to use the modulo operator. I can use a running sum to check if the full array up to that point is divisible by k, or I can also see if the array from any point up to that point is divisible by k storing previous remainders in a hashmap.
+Seeing the word "divisible" in the problem made me think that I need to use the modulo operator. I can use a running sum to check if the full array up to that point is divisible by k, or I can also see if the array from any point up to that point is divisible by k by storing previous remainders in a hashmap.
 
 ## Approach
 - Setup the hashmap with 0: 1 as the inital value, as if the remainer is 0, that should be at least 1 subarray.
