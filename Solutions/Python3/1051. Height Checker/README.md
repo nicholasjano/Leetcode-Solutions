@@ -12,7 +12,7 @@ First instinct is to sort the heights array and store it as a new array and comp
 ## Time Complexity
 $O(n \log n)$
 
-$n$ is the length of heights
+$n$ is the length of heights.
 
 ## Space Complexity
 $O(n)$

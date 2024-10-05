@@ -12,9 +12,9 @@ I'd need to first iterate through arr2 and set the priority of each number. Afte
 ## Time Complexity
 $O(n \log n)$
 
-$n$ is the length of arr1
+$n$ is the length of arr1.
 
 ## Space Complexity
 $O(n + k)$
 
-$k$ is the length of arr2
+$k$ is the length of arr2.

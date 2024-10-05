@@ -14,7 +14,7 @@ Seeing the word "divisible" in the problem made me think that I need to use the 
 ## Time Complexity
 $O(n)$
 
-$n$ is the length of nums
+$n$ is the length of nums.
 
 ## Space Complexity
 $O(k)$
