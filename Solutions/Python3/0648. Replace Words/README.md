@@ -16,7 +16,7 @@ First, I'd use a prefix tree to map out all the root words. Afterward, for each 
 ## Time Complexity
 $O(M*n)$
 
-$n$ is the total number of words in the dictionary.
+$n$ is the total number of words in the dictionary. \
 $M$ is the maximum length of a word in the dictionary.
 
 ## Space Complexity

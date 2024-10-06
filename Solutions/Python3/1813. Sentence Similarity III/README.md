@@ -13,8 +13,7 @@ I knew from this question that a double-ended queue would be useful right off th
 ## Time Complexity
 $O(n + m)$
 
-$n$ is the length of `sentence1`.
-<br>
+$n$ is the length of `sentence1`. \
 $m$ is the length of `sentence2`.
 
 ## Space Complexity

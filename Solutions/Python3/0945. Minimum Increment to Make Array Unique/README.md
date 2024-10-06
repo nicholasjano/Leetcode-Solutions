@@ -14,8 +14,7 @@ Use the counting approach to count how many times each number appears in the lis
 ## Time Complexity
 $O(n+k)$
 
-$n$ is the length of nums.
-
+$n$ is the length of nums. \
 $k$ is the range from 0 to max(nums) + len(nums).
 
 ## Space Complexity
