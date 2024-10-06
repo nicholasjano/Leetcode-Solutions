@@ -12,7 +12,7 @@ Create seperate lists for even-indexed and odd-indexed numbers, and sort the lis
 ## Time Complexity
 $O(n \log n)$
 
-$n$ is the length of the nums.
+$n$ is the length of nums.
 
 ## Space Complexity
 $O(n)$
