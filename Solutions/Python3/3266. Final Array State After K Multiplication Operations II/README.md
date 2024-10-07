@@ -4,7 +4,7 @@ Question: https://leetcode.com/problems/final-array-state-after-k-multiplication
 ## Intuition
 I first thought to use a heap and just follow the rules given by the question. Although this works, I was given TLE (Time Limit Exceeded) for large cases. I figured out that if the minimum value is multiplied by the multiplier and becomes the new largest number, this would happen for any remaining values, so I can greedily multiply all the numbers to save time.
 
-Another method to avoid the large number cases is via the forumla:
+Another method to avoid the large number cases is via the distributive property of modular arithmetic over multiplication:
 
 $$(a \cdot b) \mod m = ((a \mod m) \cdot (b \mod m)) \mod m$$
 
