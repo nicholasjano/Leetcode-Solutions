@@ -12,14 +12,14 @@ class Solution:
         def multiply_and_update(heap):
             num, index = heap[0]
             new_num = num * multiplier
-            heapq.heapreplace(heap, (new_num,index))
+            heapreplace(heap, (new_num,index))
             nums[index] = new_num
             return new_num
 
         max_value = max(nums)
         heap = []
         for i, num in enumerate(nums):
-            heapq.heappush(heap, (num, i))
+            heappush(heap, (num, i))
 
         while k > 0:
             new_num = multiply_and_update(heap)
@@ -38,7 +38,7 @@ class Solution:
             if remainder > 0:
                 heap = []
                 for i, num in enumerate(nums):
-                    heapq.heappush(heap, (num, i))
+                    heappush(heap, (num, i))
                 
                 while remainder > 0:
                     multiply_and_update(heap)
