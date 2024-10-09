@@ -7,7 +7,7 @@ First, I utilized recursive backtracking. This is not effiicent enough, so I uti
 ## Approach
 - Cover the base case of `n <= 2`.
 - Create variables `step1, step2 = 1, 2` to currently represent the outcome of `n = 1` and `n = 2`.
-- Start a loop, where on each iteration, sum `step1` and `step2` for the currrent value the `i`, and move the value from `step2` to `step1`.
+- Start a loop, where on each iteration, sum `step1` and `step2` for the currrent `i`, and move the `step2` value to `step1`.
 
 ## Time Complexity
 $O(n)$
