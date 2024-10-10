@@ -6,7 +6,7 @@ I first came up with a brute force solution, where I compared each index with ev
 
 ## Approach
 - Create a decreasing monotonic stack from `nums`.
-- Loop through `nums` backwards, attempting to find a value that is greater than the most recent value in the stack. If the condition is met, that pair is a potential candidate for the max width, and store it if needed. Pop the stack value as it has already found the best pair candidate for the max width.
+- Loop through `nums` backwards, attempting to find a value that is greater than or equal to the most recent value in the stack. If the condition is met, that pair is a potential candidate for the max width, and store it if needed. Pop the stack value as it has already found the best pair candidate for the max width.
 - Once either the stack is complete or the loop is complete, return the highest potential candidate for the max width.
 
 ## Time Complexity
