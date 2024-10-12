@@ -2,4 +2,4 @@
 
 My Leetcode Solutions with documented walkthroughs.
 
-https://leetcode.com/u/nicholasjano/
+[![Leetcode Stats](https://leetcard.jacoblin.cool/nicholasjano)](https://leetcode.com/nicholasjano)
