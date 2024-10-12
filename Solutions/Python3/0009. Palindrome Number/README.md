@@ -2,7 +2,7 @@
 Question: https://leetcode.com/problems/palindrome-number/
 
 ## Intuition
-I can loop through `x` at most half the amount of digits. At each iteration, I can pull the last digit of `x` and place it in a new value, but in reverse order. I can then compare the two numbers and see if 
+I can loop through `x` at most half the amount of digits. At each iteration, I can pull the last digit of `x` and place it in a new value, but in reverse order. I can then compare the two numbers and see if they match.
 
 ## Approach
 - Cover the base case for negative numbers and numbers ending in 0.
