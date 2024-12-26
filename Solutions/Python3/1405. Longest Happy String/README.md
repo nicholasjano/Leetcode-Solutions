@@ -17,4 +17,4 @@ $O(n)$
 $n$ is the sum of `a`, `b`, `c`.
 
 ## Space Complexity
-$O(1)$
+$O(n)$
