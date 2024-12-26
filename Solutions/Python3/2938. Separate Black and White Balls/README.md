@@ -14,5 +14,7 @@ I can use a two pointer approach for both ends of the string, and work towards t
 ## Time Complexity
 $O(n)$
 
+$n$ is the length of `s`.
+
 ## Space Complexity
 $O(1)$
