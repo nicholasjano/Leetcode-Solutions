@@ -11,7 +11,6 @@ I can loop through `nums`, keeping track of the prefix sum as I go. Once I reach
 - If it is not increasing, reset the prefix sum to the current index value
 - Once all numbers have been looped though, return the maximum value
 
-
 ## Time Complexity
 $O(n)$
 
