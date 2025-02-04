@@ -18,4 +18,4 @@ $O(n \cdot 2^{n})$
 $n$ is the length of `s`.
 
 ## Space Complexity
-$O(n \cdot 2^{n})$
+$O(n)$
