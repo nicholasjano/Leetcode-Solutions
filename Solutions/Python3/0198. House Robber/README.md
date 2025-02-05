@@ -6,7 +6,7 @@ I first utilized a top-down method with memoization. I was able to eventually co
 
 ## Approach
 - Set up the base case of `n <= 2`.
-- create 3 variables that store the max money robbable for indicies 0-2.
+- Create 3 variables that store the max money robbable for indicies 0-2.
 - Begin the loop at `i=3` and calculate the new max money robbable for that index by utilizing `max(nums[3] + nums[1], nums[3] + nums[0])`. Afterward, pass the two most recent indicies (2 and 1) down one variable, as they will be used for `i=4`, and so on.
 - The max between the final two indicies will be the most money robbable.
 
