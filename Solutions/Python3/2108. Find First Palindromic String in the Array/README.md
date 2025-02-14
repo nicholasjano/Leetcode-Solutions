@@ -10,7 +10,7 @@ I can loop through `words` from start to finish, and check if each word is a pal
 - If no palindromes are found, return the empty string
 
 ## Time Complexity
-$O(n * m)$
+$O(n \cdot m)$
 
 $n$ is the length of `words`. \
 $m$ is the length of the longest word in `words`.
