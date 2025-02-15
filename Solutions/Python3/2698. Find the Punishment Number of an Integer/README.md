@@ -10,7 +10,7 @@ I can loop through each fromber from `1` to `n`, and check if its square can be 
 - In the helper function, backtracking is done to check every partition of the number using integer division and the modulus operator to split the number.
 
 ## Time Complexity
-$O(2^{d})$
+$O(n \cdot 2^{d})$
 
 $d$ is the total number of digits in `n`.
 

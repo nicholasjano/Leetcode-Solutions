@@ -1,5 +1,5 @@
 class Solution:
-    def canBePartitioned(self, n, target):
+    def canBePartitioned(self, n: int, target: int) -> bool:
         if target < 0 or n < target:
             return False
 
