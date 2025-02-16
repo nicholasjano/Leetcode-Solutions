@@ -11,7 +11,7 @@ Since there are equal edges to nodes, I know that there must be a redundant conn
 ## Time Complexity
 $O(n + E \cdot α(n))$
 
-$n$ represents the total number of nodes.
+$n$ represents the total number of nodes. \
 $E$ represents the total number of edges.
 
 ## Space Complexity
