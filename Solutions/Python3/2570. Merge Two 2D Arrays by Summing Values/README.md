@@ -16,8 +16,8 @@ I can keep a pointer for my current position for both `nums1` and `nums2` starti
 ## Time Complexity
 $O(n + m)$
 
-$n$ is the length of `nums1` \
-$m$ is the length of `nums2`
+$n$ is the length of `nums1`. \
+$m$ is the length of `nums2`.
 
 ## Space Complexity
 $O(n + m)$
