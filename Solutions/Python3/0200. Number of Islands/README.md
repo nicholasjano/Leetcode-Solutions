@@ -10,7 +10,7 @@ I an go through each `(row, column)` pair in the grid until I reach a `"1"`. Onc
 - Continue until the entire grid has been visited.
 
 ## Time Complexity
-$O(n*m)$
+$O(n \cdot m)$
 
 ## Space Complexity
-$O(n*m)$
+$O(n \cdot m)$
