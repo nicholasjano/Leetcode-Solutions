@@ -5,7 +5,6 @@ Question: https://leetcode.com/problems/lru-cache/
 I can store the nodes in a hashmap, with the key as the `key` parameter. Whenever a `put()` is ran, either move the existing node to the end with the new `value`, or create a new node and place it at the end. When `get()` is ran, move the existing node to the end, if it exists. If the capacity becomes too large, remove the node at the head.
 
 ## Approach
-
 - Set up a doubly linked list to store the key, value pairs.
 - Create two helper functions, one to remove a node from the linked list, and one to add a node to the end of the linked list.
 - `__init__()`:
