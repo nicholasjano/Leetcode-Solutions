@@ -7,7 +7,7 @@ I first came up with a hashmap solution that could store the values, but this is
 ## Approach
 - Cover the base case if `head` does not exist, and return None.
 - Go through the first pass, creating new nodes inbetween each node, copying the value of the previous node.
-- Go through the second pass, updating the ransom values for the new nodes, based off the information provided on the old nodes.
+- Go through the second pass, updating the random values for the new nodes, based off the information provided on the old nodes.
 - Go through the third pass, skipping a node with each next, effectively splitting the two linked lists.
 - Return the linkedlist with the new nodes.
 
