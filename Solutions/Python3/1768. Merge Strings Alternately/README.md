@@ -7,7 +7,7 @@ I can loop through each index up to the length of the maximum length word, and f
 ## Approach
 - Get the lengths of both words. Start a loop up to the maximum length.
 - If the current index is within the length of the word, add the character at the index for each word to the result list.
-- Concatenate and return the string form of the result list.
+- Concatenate and return the string from of the result list.
 
 ## Time Complexity
 $O(n + m)$
