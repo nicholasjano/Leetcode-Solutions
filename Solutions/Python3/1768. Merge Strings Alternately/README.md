@@ -12,8 +12,8 @@ I can loop through each index up to the length of the maximum length word, and f
 ## Time Complexity
 $O(n + m)$
 
-$n$ is the length of `word1` \
-$m$ is the length of `word2`
+$n$ is the length of `word1`. \
+$m$ is the length of `word2`.
 
 ## Space Complexity
 $O(1)$
