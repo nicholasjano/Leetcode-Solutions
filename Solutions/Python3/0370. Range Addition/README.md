@@ -6,7 +6,7 @@ I can use a difference array to keep track of the difference between the current
 
 ## Approach
 - Create the inital array of size `length` of all zeros.
-- Iterate through `updates` and increment the start index by the increment value. If the end index is not at the very end, decrement the index after the end index by the increment value.
+- Iterate through `updates` and increment the value at the start index by the increment value. If the end index is not at the very end, decrement the value at the index after the end index by the increment value.
 - Once the `updates` loop has been completed, run another loop on the now-updated array of values and set each value to its prefix sum. Return the array at the end.
 
 ## Time Complexity
